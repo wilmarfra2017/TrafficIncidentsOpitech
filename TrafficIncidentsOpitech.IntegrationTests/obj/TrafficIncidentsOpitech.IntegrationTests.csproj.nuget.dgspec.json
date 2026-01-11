@@ -1,0 +1,464 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.IntegrationTests\\TrafficIncidentsOpitech.IntegrationTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.Api\\TrafficIncidentsOpitech.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.Api\\TrafficIncidentsOpitech.Api.csproj",
+        "projectName": "TrafficIncidentsOpitech.Api",
+        "projectPath": "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.Api\\TrafficIncidentsOpitech.Api.csproj",
+        "packagesPath": "C:\\Users\\mart800749\\.nuget\\packages\\",
+        "outputPath": "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mart800749\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.Infrastructure\\TrafficIncidentsOpitech.Infrastructure.csproj": {
+                "projectPath": "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.Infrastructure\\TrafficIncidentsOpitech.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.Application\\TrafficIncidentsOpitech.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.Application\\TrafficIncidentsOpitech.Application.csproj",
+        "projectName": "TrafficIncidentsOpitech.Application",
+        "projectPath": "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.Application\\TrafficIncidentsOpitech.Application.csproj",
+        "packagesPath": "C:\\Users\\mart800749\\.nuget\\packages\\",
+        "outputPath": "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mart800749\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.Domain\\TrafficIncidentsOpitech.Domain.csproj": {
+                "projectPath": "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.Domain\\TrafficIncidentsOpitech.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.2, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.2, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.Domain\\TrafficIncidentsOpitech.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.Domain\\TrafficIncidentsOpitech.Domain.csproj",
+        "projectName": "TrafficIncidentsOpitech.Domain",
+        "projectPath": "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.Domain\\TrafficIncidentsOpitech.Domain.csproj",
+        "packagesPath": "C:\\Users\\mart800749\\.nuget\\packages\\",
+        "outputPath": "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mart800749\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.Infrastructure\\TrafficIncidentsOpitech.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.Infrastructure\\TrafficIncidentsOpitech.Infrastructure.csproj",
+        "projectName": "TrafficIncidentsOpitech.Infrastructure",
+        "projectPath": "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.Infrastructure\\TrafficIncidentsOpitech.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\mart800749\\.nuget\\packages\\",
+        "outputPath": "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mart800749\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.Application\\TrafficIncidentsOpitech.Application.csproj": {
+                "projectPath": "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.Application\\TrafficIncidentsOpitech.Application.csproj"
+              },
+              "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.Domain\\TrafficIncidentsOpitech.Domain.csproj": {
+                "projectPath": "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.Domain\\TrafficIncidentsOpitech.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.IntegrationTests\\TrafficIncidentsOpitech.IntegrationTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.IntegrationTests\\TrafficIncidentsOpitech.IntegrationTests.csproj",
+        "projectName": "TrafficIncidentsOpitech.IntegrationTests",
+        "projectPath": "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.IntegrationTests\\TrafficIncidentsOpitech.IntegrationTests.csproj",
+        "packagesPath": "C:\\Users\\mart800749\\.nuget\\packages\\",
+        "outputPath": "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.IntegrationTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mart800749\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.Api\\TrafficIncidentsOpitech.Api.csproj": {
+                "projectPath": "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.Api\\TrafficIncidentsOpitech.Api.csproj"
+              },
+              "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.Domain\\TrafficIncidentsOpitech.Domain.csproj": {
+                "projectPath": "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.Domain\\TrafficIncidentsOpitech.Domain.csproj"
+              },
+              "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.Infrastructure\\TrafficIncidentsOpitech.Infrastructure.csproj": {
+                "projectPath": "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.Infrastructure\\TrafficIncidentsOpitech.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.12.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

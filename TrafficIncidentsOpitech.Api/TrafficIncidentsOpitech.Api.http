@@ -1,0 +1,6 @@
+@TrafficIncidentsOpitech.Api_HostAddress = http://localhost:5239
+
+GET {{TrafficIncidentsOpitech.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

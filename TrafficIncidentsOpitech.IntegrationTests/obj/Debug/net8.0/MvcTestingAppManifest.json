@@ -1,0 +1,6 @@
+{
+  "TrafficIncidentsOpitech.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.Api",
+  "TrafficIncidentsOpitech.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.Application",
+  "TrafficIncidentsOpitech.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.Domain",
+  "TrafficIncidentsOpitech.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Repos\\TrafficIncidentsOpitech\\TrafficIncidentsOpitech.Infrastructure"
+}

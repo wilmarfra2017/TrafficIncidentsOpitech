@@ -1,0 +1,15 @@
+C:\Repos\TrafficIncidentsOpitech\TrafficIncidentsOpitech.Application\bin\Debug\net8.0\TrafficIncidentsOpitech.Application.deps.json
+C:\Repos\TrafficIncidentsOpitech\TrafficIncidentsOpitech.Application\bin\Debug\net8.0\TrafficIncidentsOpitech.Application.dll
+C:\Repos\TrafficIncidentsOpitech\TrafficIncidentsOpitech.Application\bin\Debug\net8.0\TrafficIncidentsOpitech.Application.pdb
+C:\Repos\TrafficIncidentsOpitech\TrafficIncidentsOpitech.Application\bin\Debug\net8.0\TrafficIncidentsOpitech.Domain.dll
+C:\Repos\TrafficIncidentsOpitech\TrafficIncidentsOpitech.Application\bin\Debug\net8.0\TrafficIncidentsOpitech.Domain.pdb
+C:\Repos\TrafficIncidentsOpitech\TrafficIncidentsOpitech.Application\obj\Debug\net8.0\TrafficIncidentsOpitech.Application.csproj.AssemblyReference.cache
+C:\Repos\TrafficIncidentsOpitech\TrafficIncidentsOpitech.Application\obj\Debug\net8.0\TrafficIncidentsOpitech.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\TrafficIncidentsOpitech\TrafficIncidentsOpitech.Application\obj\Debug\net8.0\TrafficIncidentsOpitech.Application.AssemblyInfoInputs.cache
+C:\Repos\TrafficIncidentsOpitech\TrafficIncidentsOpitech.Application\obj\Debug\net8.0\TrafficIncidentsOpitech.Application.AssemblyInfo.cs
+C:\Repos\TrafficIncidentsOpitech\TrafficIncidentsOpitech.Application\obj\Debug\net8.0\TrafficIncidentsOpitech.Application.csproj.CoreCompileInputs.cache
+C:\Repos\TrafficIncidentsOpitech\TrafficIncidentsOpitech.Application\obj\Debug\net8.0\TrafficI.54C7FE6D.Up2Date
+C:\Repos\TrafficIncidentsOpitech\TrafficIncidentsOpitech.Application\obj\Debug\net8.0\TrafficIncidentsOpitech.Application.dll
+C:\Repos\TrafficIncidentsOpitech\TrafficIncidentsOpitech.Application\obj\Debug\net8.0\refint\TrafficIncidentsOpitech.Application.dll
+C:\Repos\TrafficIncidentsOpitech\TrafficIncidentsOpitech.Application\obj\Debug\net8.0\TrafficIncidentsOpitech.Application.pdb
+C:\Repos\TrafficIncidentsOpitech\TrafficIncidentsOpitech.Application\obj\Debug\net8.0\ref\TrafficIncidentsOpitech.Application.dll
