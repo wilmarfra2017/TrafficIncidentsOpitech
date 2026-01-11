@@ -31,3 +31,12 @@ Configura la cadena de conexión en `TrafficIncidentsOpitech.Api/appsettings.jso
     "DefaultConnection": "Server=localhost;Database=TrafficIncidentsOpitechDb;User Id=sa;Password=***;TrustServerCertificate=True;"
   }
 }
+
+## Migraciones (SQL Server)
+
+### Crear migración
+```powershell
+EntityFrameworkCore\Add-Migration InitialCreate -Project TrafficIncidentsOpitech.Infrastructure -StartupProject TrafficIncidentsOpitech.Api -Context TrafficIncidentsDbContext -OutputDir Persistence\Migrations
+
+### Aplicar migración (crear/actualizar la base)
+EntityFrameworkCore\Update-Database -Project TrafficIncidentsOpitech.Infrastructure -StartupProject TrafficIncidentsOpitech.Api -Context TrafficIncidentsDbContext
